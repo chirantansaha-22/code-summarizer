@@ -17,6 +17,7 @@ def parse_pom(pom_file_path):
 
     # Extract modules (if present)
     modules = root.find('mvn:modules', namespace)
+    
     module_list = [module.text for module in modules] if modules is not None else []
 
     return {
