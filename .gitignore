@@ -1,0 +1,5 @@
+# exclude the env file which will host the credentials
+.env
+
+# exlude the virtual environment created for the local development
+code-summarizer/
